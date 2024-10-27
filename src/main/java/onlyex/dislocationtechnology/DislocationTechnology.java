@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import onlyex.dislocationtechnology.api.utils.DTLog;
 import onlyex.dislocationtechnology.common.CommonProxy;
+import onlyex.dislocationtechnology.common.items.DTMetaItems;
 
 import java.io.IOException;
 
@@ -23,13 +24,12 @@ public class DislocationTechnology {
 
     @SidedProxy(
             modId = Tags.MOD_ID,
-            clientSide = "com.onlyex.dislocationtechnology.client.ClientProxy",
-            serverSide = "com.onlyex.dislocationtechnology.common.CommonProxy"
+            clientSide = "onlyex.dislocationtechnology.client.ClientProxy",
+            serverSide = "onlyex.dislocationtechnology.common.CommonProxy"
     )
     public static CommonProxy proxy;
     @Mod.EventHandler
-    public void onConstruction(FMLConstructionEvent event)
-    {
+    public void onConstruction(FMLConstructionEvent event) {
         ConfigHolder.machines.highTierContent = true;
     }
 
@@ -39,8 +39,9 @@ public class DislocationTechnology {
         DTLog.init(event.getModLog());
         ConfigHolder.machines.highTierContent = true;
         DTLog.logger.info("Enabled GregTechCEu highTierContent");
+        DTMetaItems.init();
 
-        proxy.preLoad();
+        proxy.onPreLoad();
         proxy.preInit(event);
     }
 

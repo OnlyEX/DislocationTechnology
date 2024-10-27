@@ -2,6 +2,7 @@ package onlyex.dislocationtechnology.common;
 
 import gregtech.api.GregTechAPI;
 import gregtech.api.cover.CoverDefinition;
+import gregtech.api.items.metaitem.MetaItem;
 import gregtech.api.recipes.recipeproperties.FusionEUToStartProperty;
 import gregtech.common.items.MetaItems;
 import gregtech.loaders.recipe.CraftingComponent;
@@ -20,6 +21,7 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 import onlyex.dislocationtechnology.api.utils.DTLog;
+import onlyex.dislocationtechnology.common.items.DTMetaItems;
 
 import javax.annotation.Nonnull;
 
@@ -38,7 +40,7 @@ public class CommonProxy {
     };
     public CommonProxy() {}
 
-    public void preLoad() {}
+    public void onPreLoad() {}
 
     @SubscribeEvent
     public static void syncConfigValues(ConfigChangedEvent.OnConfigChangedEvent event) {
