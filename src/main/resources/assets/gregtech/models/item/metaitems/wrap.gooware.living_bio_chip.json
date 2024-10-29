@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dislocationtechnology:items/metaitems/gooware.living_bio_chip",
+    "layer1": "dislocationtechnology:items/wrap_overlay"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "animation": { "frametime": 1 },
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "naxtech:blocks/casings/coils/unive_ctm"
+    ],
+    "extra": {
+      "connect_inside": true
+    }
+  }
+}

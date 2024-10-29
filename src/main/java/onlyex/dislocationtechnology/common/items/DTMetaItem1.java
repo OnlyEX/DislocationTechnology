@@ -3,7 +3,9 @@ package onlyex.dislocationtechnology.common.items;
 import gregtech.api.items.metaitem.StandardMetaItem;
 import gregtech.api.unification.material.MarkerMaterials;
 import gregtech.api.unification.ore.OrePrefix;
+import onlyex.dislocationtechnology.client.renderer.texture.DTTextures;
 import onlyex.dislocationtechnology.common.CommonProxy;
+import onlyex.dislocationtechnology.common.items.behaviors.renderer.HaloRenderItemBehavior;
 
 import static onlyex.dislocationtechnology.common.items.DTMetaItems.*;
 
@@ -55,18 +57,18 @@ public class DTMetaItem1 extends StandardMetaItem {
         COSMIC_MAINFRAME = this.addItem(15, "circuit.cosmic_mainframe")
                 .setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.OpV);
 
-        /*SUPRACAUSAL_PROCESSOR = this.addItem(16, "circuit.supracausal_processor")
+        SUPRACAUSAL_PROCESSOR = this.addItem(16, "circuit.supracausal_processor")
                 .setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.UIV)
-                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> NTTextures.HALO, true));
+                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> DTTextures.HALO, true));
         SUPRACAUSAL_ASSEMBLY = this.addItem(17, "circuit.supracausal_assembly")
                 .setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.UXV)
-                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> NTTextures.HALO, true));
+                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> DTTextures.HALO, true));
         SUPRACAUSAL_COMPUTER = this.addItem(18, "circuit.supracausal_computer")
                 .setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.OpV)
-                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> NTTextures.HALO, true));
+                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> DTTextures.HALO, true));
         SUPRACAUSAL_MAINFRAME = this.addItem(19, "circuit.supracausal_mainframe")
                 .setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.MAX)
-                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> NTTextures.HALO, true));*/
+                .addComponents(new HaloRenderItemBehavior(10, 0xFF000000, () -> DTTextures.HALO, true));
 
         //ID 20~59
         EU_DOPED_CUBIC_ZIRCONIA_BOULE = this.addItem(20, "boule.cubic_zirconia.europium");

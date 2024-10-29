@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dislocationtechnology:items/metaitems/component.supracausal_smd.inductor",
+    "layer1": "dislocationtechnology:items/wrap_overlay"
+  }
+}

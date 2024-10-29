@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dislocationtechnology:items/singularity/thermionic_singularity",
+    "layer1": "dislocationtechnology:items/singularity/thermionic_singularity_overlay"
+  }
+}

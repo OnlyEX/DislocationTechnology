@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dislocationtechnology:items/wrap/metaitems/smd_transistor",
+    "layer1": "dislocationtechnology:items/wrap_overlay"
+  }
+}

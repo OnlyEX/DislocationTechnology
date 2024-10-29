@@ -14,7 +14,7 @@ import java.util.List;
 public class DTMetaItems {
 
     //public static final List<MetaItem<?>> ITEMS = MetaItem.getMetaItems();
-    static StandardMetaItem META_ITEM_DT;
+    public static DTMetaItem1 META_ITEM_DT;
 
     public static MetaItem<?>.MetaValueItem GOOWARE_PROCESSOR;
     public static MetaItem<?>.MetaValueItem GOOWARE_ASSEMBLY;

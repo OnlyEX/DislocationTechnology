@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "cross": "dislocationtechnology:blocks/trees/saplings/sapling_pine"
+  }
+}
