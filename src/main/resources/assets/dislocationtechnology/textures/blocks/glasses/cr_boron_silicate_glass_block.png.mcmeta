@@ -4,7 +4,7 @@
         "type": "CTM",
         "layer": "TRANSLUCENT",
         "textures": [
-            "naxtech:blocks/glasses/cr_boron_silicate_glass_block_ctm"
+            "dislocationtechnology:blocks/glasses/cr_boron_silicate_glass_block_ctm"
         ],
         "extra": {
             "connect_inside": true

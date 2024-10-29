@@ -8,22 +8,24 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import onlyex.dislocationtechnology.api.DTValues;
 import onlyex.dislocationtechnology.api.utils.DTLog;
 import onlyex.dislocationtechnology.common.CommonProxy;
 import onlyex.dislocationtechnology.common.items.DTMetaItems;
 
+
 import java.io.IOException;
 
 @Mod(
-        modid = Tags.MOD_ID,
-        name = Tags.MOD_NAME,
+        modid = DTValues.MOD_ID,
+        name = DTValues.MOD_NAME,
         version = Tags.VERSION,
         acceptedMinecraftVersions = "[1.12.2,1.13)",
         dependencies = "required-after:gregtech@[2.8.10-beta,);")
 public class DislocationTechnology {
 
     @SidedProxy(
-            modId = Tags.MOD_ID,
+            modId = DTValues.MOD_ID,
             clientSide = "onlyex.dislocationtechnology.client.ClientProxy",
             serverSide = "onlyex.dislocationtechnology.common.CommonProxy"
     )

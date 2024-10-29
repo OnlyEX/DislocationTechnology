@@ -2,7 +2,6 @@ package onlyex.dislocationtechnology.common;
 
 import gregtech.api.GregTechAPI;
 import gregtech.api.cover.CoverDefinition;
-import gregtech.api.items.metaitem.MetaItem;
 import gregtech.api.recipes.recipeproperties.FusionEUToStartProperty;
 import gregtech.common.items.MetaItems;
 import gregtech.loaders.recipe.CraftingComponent;
@@ -20,16 +19,12 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
+import onlyex.dislocationtechnology.api.DTValues;
 import onlyex.dislocationtechnology.api.utils.DTLog;
-import onlyex.dislocationtechnology.common.items.DTMetaItems;
-
 import javax.annotation.Nonnull;
-
 import java.util.function.Function;
 
-import static com.onlyex.dislocationtechnology.Tags.MOD_ID;
-
-@Mod.EventBusSubscriber(modid = MOD_ID)
+@Mod.EventBusSubscriber(modid = DTValues.MOD_ID)
 public class CommonProxy {
     public static final CreativeTabs DT_TAB = new CreativeTabs("Dislocation Technology") {
         @Nonnull

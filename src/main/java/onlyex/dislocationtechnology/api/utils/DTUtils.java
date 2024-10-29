@@ -1,11 +1,12 @@
 package onlyex.dislocationtechnology.api.utils;
 
+import org.jetbrains.annotations.NotNull;
 import net.minecraft.util.ResourceLocation;
+import onlyex.dislocationtechnology.api.DTValues;
 
-import static com.onlyex.dislocationtechnology.Tags.MOD_ID;
-
-public class DTUtils {//TODO @NotNull
-    public static ResourceLocation naxId(String path) {
-            return new ResourceLocation(MOD_ID, path);
+public class DTUtils {
+    @NotNull
+    public static ResourceLocation ID(@NotNull String path) {
+            return new ResourceLocation(DTValues.MOD_ID, path);
     }
 }

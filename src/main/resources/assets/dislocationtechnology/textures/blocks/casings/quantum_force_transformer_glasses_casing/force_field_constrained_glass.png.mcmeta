@@ -4,7 +4,7 @@
     "type": "CTM",
     "layer": "CUTOUT",
     "textures": [
-      "naxtech:blocks/casings/quantum_force_transformer_casing/force_field_constrained_glass_ctm"
+      "dislocationtechnology:blocks/casings/quantum_force_transformer_casing/force_field_constrained_glass_ctm"
     ],
     "extra": {
       "connect_inside": true

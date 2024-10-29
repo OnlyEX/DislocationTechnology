@@ -5,7 +5,7 @@
         "layer": "BLOOM",
         "gregtech": true,
         "textures": [
-            "naxtech:blocks/casings/coils/end_ctm"
+            "dislocationtechnology:blocks/casings/coils/end_ctm"
         ],
         "extra": {
             "connect_inside": true,

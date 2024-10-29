@@ -8,7 +8,7 @@
         "layer": "SOLID",
         "gregtech": true,
         "textures": [
-            "naxtech:blocks/casings/coils/electrum_flux_ctm"
+            "dislocationtechnology:blocks/casings/coils/electrum_flux_ctm"
         ],
         "extra": {
             "connect_inside": true
